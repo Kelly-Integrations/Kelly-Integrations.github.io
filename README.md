@@ -17,15 +17,19 @@ First of all make sure to have these installed:
 
 Clone this repo into a directory on your machine:
 
-    $ git clone https://github.com/enriquezm/jekyll-theme-single.git my-site
+    git clone https://github.com/enriquezm/jekyll-theme-single.git my-site
+
+CD into your newly created site:
+
+$    cd my-site/
 
 Install project dependecies via bower:
 
-    $ bower init
+    bower install
 
 Run the site:
 
-    $ jekyll serve
+    jekyll serve
 
 Point your brower to: [http://127.0.0.1:4000/](http://127.0.0.1:4000/)
 

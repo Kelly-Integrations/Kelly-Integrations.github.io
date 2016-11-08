@@ -1,0 +1,20 @@
+- linkName: Tab1
+  class: section-1
+  img: hero-image-sm.jpg
+  img_float: right
+  title: Title1
+  paragraph: Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+
+- linkName: Tab2
+  class: section-2
+  img: hero-image-sm.jpg
+  img_float: left
+  title: Title2
+  paragraph: Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+
+- linkName: Tab3
+  class: section-3
+  img: hero-image-sm.jpg
+  img_float: right
+  title: Title3
+  paragraph: Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.

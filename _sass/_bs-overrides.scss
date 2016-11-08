@@ -1,0 +1,30 @@
+.navbar {
+  border: none;
+  border-radius: 0px;
+  li {
+      a.btn {
+        color: white;
+      }
+      a.btn-primary {
+        &:hover {
+          color: white;
+          background-color: lighten(#51c872, 5%);
+        }
+      }
+  }
+}
+.navbar-default {
+  background-color: white;
+}
+// .container-fluid {
+//   padding-right: 0px;
+//   padding-left: 0px;
+// }
+.btn {
+  border-radius: 3px;
+  border: none;
+}
+.btn-primary {
+  padding: 10px 15px;
+  background-color: #51c872;
+}

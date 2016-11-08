@@ -1,13 +1,18 @@
-<div class="container">
-  <header class="site-header">
-    <nav class="navbar navbar-default">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="{{site.baseurl}}/">
-            BRAND
-          </a>
-        </div>
+<header class="site-header">
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="{{site.baseurl}}/">
+          {{site.title}}
+        </a>
       </div>
-    </nav>
-  </header>
-</div>
+
+      <ul class="nav navbar-nav navbar-right">
+        {% for section in site.data.sections %}
+        <li><a href="#{{section.linkName}}">{{section.linkName}}</a></li>
+        {% endfor %}
+        <li><a class="btn btn-primary" href="">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>

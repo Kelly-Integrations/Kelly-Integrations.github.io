@@ -1,0 +1,33 @@
+<div class="container">
+  {% for section in site.data.sections %}
+  <section id="{{section.linkName}}" class="section {{section.class}}">
+    <div class="row">
+
+        {% if section.img_float == 'left' %}
+        <div class="col-xs-12 col-md-6 item-animated">
+          <img class="img-responsive" src="/images/{{section.img}}" alt="Placeholder Image">
+        </div>
+        <div class="col-xs-12 col-md-6 item-animated item-content">
+          <h3>{{section.title}}</h3>
+          <hr />
+          <p>
+            {{section.paragraph}}
+          </p>
+        </div>
+        {% else %}
+        <div class="col-xs-12 col-md-6 item-animated item-content">
+          <h3>{{section.title}}</h3>
+          <hr />
+          <p>
+            {{section.paragraph}}
+          </p>
+        </div>
+        <div class="col-xs-12 col-md-6 item-animated">
+          <img class="img-responsive" src="/images/{{section.img}}" alt="Placeholder Image">
+        </div>
+        {% endif %}
+
+    </div>
+  </section>
+  {% endfor %}
+</div>

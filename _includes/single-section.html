@@ -8,7 +8,14 @@
           <img class="img-responsive" src="/images/{{section.img}}" alt="Placeholder Image">
         </div>
         <div class="col-xs-12 col-md-6 item-animated item-content">
-          <h3>{{section.title}}</h3>
+          <div class="section-heading">
+            {% for title in section.title %}
+             <h3>{{title.sm_title}}</h3>
+            {% endfor %}
+            {% for title in section.title %}
+              <h1 class="sub-text">{{title.big_title}}</h1>
+            {% endfor %}
+          </div>
           <hr />
           <p>
             {{section.paragraph}}
@@ -16,7 +23,14 @@
         </div>
         {% else %}
         <div class="col-xs-12 col-md-6 item-animated item-content">
-          <h3>{{section.title}}</h3>
+          <div class="section-heading">
+            {% for title in section.title %}
+             <h3>{{title.sm_title}}</h3>
+            {% endfor %}
+            {% for title in section.title %}
+              <h1 class="sub-text">{{title.big_title}}</h1>
+            {% endfor %}
+          </div>
           <hr />
           <p>
             {{section.paragraph}}

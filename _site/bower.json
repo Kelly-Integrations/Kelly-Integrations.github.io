@@ -1,0 +1,26 @@
+{
+  "name": "kellyintegrations",
+  "authors": [
+    "Myles Enriquez <enri.myles@gmail.com>"
+  ],
+  "description": "Kelly Integrations",
+  "main": "index.html",
+  "keywords": [
+    "kelly",
+    "integrations"
+  ],
+  "license": "MIT",
+  "homepage": "index.html",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "holderjs": "^2.9.4"
+  }
+}

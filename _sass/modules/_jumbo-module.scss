@@ -1,0 +1,11 @@
+// Styling for jumbo module.
+// Contains header, accompanying sentence, and learn more button.
+.jumbo-module {
+  .jumbotron {
+    border: none;
+    border-radius: 0px;
+    hr {
+      width: 25%;
+    }
+  }
+}

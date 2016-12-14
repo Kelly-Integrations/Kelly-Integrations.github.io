@@ -1,0 +1,8 @@
+nav.navigation-module .navbar-header a.navbar-brand {
+  color: red; }
+
+.jumbo-module .jumbotron {
+  border: none;
+  border-radius: 0px; }
+  .jumbo-module .jumbotron hr {
+    width: 25%; }

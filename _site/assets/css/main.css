@@ -1,3 +1,6 @@
+body {
+  background-color: #EDF4FC; }
+
 nav.navigation-module .navbar-header a.navbar-brand {
   color: red; }
 
@@ -6,3 +9,8 @@ nav.navigation-module .navbar-header a.navbar-brand {
   border-radius: 0px; }
   .jumbo-module .jumbotron hr {
     width: 25%; }
+
+.service-module {
+  margin-bottom: 30px; }
+  .service-module .service-container {
+    background-color: white; }

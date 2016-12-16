@@ -1,12 +1,30 @@
 body {
+  padding-top: 70px;
+  line-height: 1;
+  font-size: 14px;
+  font-family: 'Source Sans Pro', sans-serif;
   background-color: #EDF4FC; }
+  body h1, body h2, body h3, body h4, body h5, body h6 {
+    font-weight: 700; }
+  body p {
+    line-height: 140%; }
 
-nav.navigation-module .navbar-header a.navbar-brand {
-  color: red; }
+.section {
+  margin-bottom: 30px;
+  padding: 10px 20px; }
+
+.services-section {
+  color: #EDF4FC;
+  background-color: #34495E; }
+
+.contact-section {
+  background-color: #34495E; }
 
 .jumbo-module .jumbotron {
   border: none;
-  border-radius: 0px; }
+  border-radius: 0px;
+  background-color: #34495E;
+  color: #EDF4FC; }
   .jumbo-module .jumbotron hr {
     width: 25%; }
 
@@ -14,3 +32,10 @@ nav.navigation-module .navbar-header a.navbar-brand {
   margin-bottom: 30px; }
   .service-module .service-container {
     background-color: white; }
+
+.contact-module {
+  margin-bottom: 30px; }
+  .contact-module .contact-container {
+    background-color: white; }
+    .contact-module .contact-container .contact-form {
+      background-color: #34495E; }

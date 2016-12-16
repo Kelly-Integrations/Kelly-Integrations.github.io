@@ -1,0 +1,20 @@
+- title: Service One Title
+  sub-title: Sample Sub-Title
+  tab: Service1
+  blurb: Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+  details: This is a paragraph of details.
+  float: left
+
+- title: Service Two Title
+  sub-title: Sample Sub-Title
+  tab: Service2
+  blurb: Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+  details: This is a paragraph of details.
+  float: right
+
+- title: Service Three Title
+  sub-title: Sample Sub-Title
+  tab: Service3
+  blurb: Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+  details: This is a paragraph of details.
+  float: left

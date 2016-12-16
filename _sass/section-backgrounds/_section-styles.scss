@@ -2,16 +2,78 @@
 $services-section-font-color: #EDF4FC;
 $services-section-background-color: #34495E;
 
+$contact-form-bg: #4B6A89;
+
+// Overall Section Styling
 .section {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   padding: 10px 20px;
 }
 
+// Styling for Services Section
 .services-section {
   color: $services-section-font-color;
   background-color: $services-section-background-color;
+  .section-header {
+    margin-bottom: 20px;
+    h2 {
+      color: $lime-color;
+    }
+  }
+  .service-block {
+    margin-bottom: 20px;
+    .service-block-header {
+      margin-bottom: 10px;
+      .service-icon {
+        color: $lime-color;
+        margin-right: 10px;
+      }
+      .service-title {
+        font-size: 18px;
+        font-weight: 700;
+        color: $lime-color;
+      }
+    }
+    .service-block-content {
+
+    }
+  }
 }
 
+// Styling for Contact Section
 .contact-section {
   background-color: $services-section-background-color;
+  .contact-module {
+    .contact-module-content {
+
+    }
+    .contact-form-container {
+      margin-top: -20px;
+      margin-bottom: -20px;
+      background-color: $contact-form-bg;
+      padding: 10px 20px;
+      input, textarea {
+        width: 100%;
+        margin-bottom: 5px;
+        padding: 15px 10px;
+        color: $services-section-font-color;
+        border: 2px solid #354D65;
+        background-color: #3A546E;
+      }
+      input {
+        &.submit-button {
+          background-color: $lime-color;
+          color: white;
+          border: none;
+          &:hover {
+            background-color: lighten($lime-color, 10);
+          }
+        }
+      }
+      textarea {
+        resize: none;
+      }
+    }
+
+  }
 }

@@ -1,6 +1,32 @@
 .service-module {
-  margin-bottom: 30px;
-  .service-container {
+  div.service-container {
     background-color: white;
+    margin-bottom: 50px;
+    img {
+      width: 395px;
+      height: 280px;
+      box-shadow: 1px 1px 10px rgb(175,175,175);
+      &.float-left {
+        margin-top: -20px;
+        margin-bottom: -20px;
+        margin-left: -50px;
+      }
+      &.float-right {
+        margin-top: -20px;
+        margin-bottom: -20px;
+        margin-right: 50px;
+      }
+    }
+    .service-content {
+      padding: 30px 15px;
+      .section-subheader {
+        margin-bottom: 0;
+        color: grey;
+      }
+      .section-header {
+        margin-top: 0;
+        color: $lime-color;
+      }
+    }
   }
 }

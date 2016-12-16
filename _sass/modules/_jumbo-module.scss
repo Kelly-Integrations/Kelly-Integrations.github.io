@@ -1,9 +1,14 @@
 // Styling for jumbo module.
 // Contains header, accompanying sentence, and learn more button.
+$jumbo-module-background-color: #34495E;
+$jumbo-module-font-color: #EDF4FC;
+
 .jumbo-module {
   .jumbotron {
     border: none;
     border-radius: 0px;
+    background-color: $jumbo-module-background-color;
+    color: $jumbo-module-font-color;
     hr {
       width: 25%;
     }

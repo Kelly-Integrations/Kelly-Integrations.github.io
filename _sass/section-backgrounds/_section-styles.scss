@@ -1,0 +1,17 @@
+// Variables
+$services-section-font-color: #EDF4FC;
+$services-section-background-color: #34495E;
+
+.section {
+  margin-bottom: 30px;
+  padding: 10px 20px;
+}
+
+.services-section {
+  color: $services-section-font-color;
+  background-color: $services-section-background-color;
+}
+
+.contact-section {
+  background-color: $services-section-background-color;
+}

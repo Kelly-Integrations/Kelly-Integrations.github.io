@@ -1,33 +1,21 @@
 <div class="row section-header">
   <div class="col-xs-12">
-    <h3>Section header</h3>
+    <h2>Section header</h2>
     <p>Accompanying sentence.</p>
   </div>
 </div>
 
 <div class="row">
-  <div class="col-md-4">
-    <div class="service-block">
+  {% for service in site.data.services %}
+  <div class="col-md-4 service-block">
       <div class="service-block-header">
-        <span>+</span><span>Service</span>
-        <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+        <span class="glyphicon glyphicon-ok-sign service-icon" aria-hidden="true"></span><span class="service-title">{{ service.title }}</span>
       </div>
-    </div>
-  </div>
-  <div class="col-md-4">
-    <div class="service-block">
-      <div class="service-block-header">
-        <span>+</span><span>Service</span>
-        <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+      <div class="service-block-content">
+        <p>
+          {{ service.blurb }}
+        </p>
       </div>
-    </div>
   </div>
-  <div class="col-md-4">
-    <div class="service-block">
-      <div class="service-block-header">
-        <span>+</span><span>Service</span>
-        <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
-      </div>
-    </div>
-  </div>
+  {% endfor %}
 </div>

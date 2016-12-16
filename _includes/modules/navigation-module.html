@@ -1,13 +1,25 @@
 <nav class="navbar navbar-default navbar-fixed-top navigation-module">
   <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="{{site.baseurl}}/">
-        {{site.title}}
-      </a>
-    </div>
-
-    <ul class="nav navbar-nav navbar-right">
-      <li><a href="">Contact</a></li>
-    </ul>
-  </div>
-</nav>
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+        <a class="navbar-brand" href="{{ site.baseurl }}/">
+          {{site.title}}
+        </a>
+      </div>
+      <div class="collapse navbar-collapse" id="navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          {% for service in site.data.services %}
+            <li><a href="#{{ service.tab | downcase }}">{{ service.tab }}</a></li>
+          {% endfor %}
+          <li><a href="#contact-form">Contact</a></li>
+        </ul>
+      </div>
+    </div><!-- .container -->
+  </div><!-- .container-fluid -->
+</nav> <!-- .navigation-module -->

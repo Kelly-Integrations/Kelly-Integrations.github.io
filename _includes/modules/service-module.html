@@ -1,0 +1,37 @@
+<div class="container service-module">
+    <div class="row">
+      {% for service in site.data.services %}
+      <div id="{{ service.tab | downcase }}" class="col-xs-12 col-md-8 col-md-offset-2 service-container">
+        {% if service.float == 'left' %}
+        <div class="col-xs-12 col-md-6">
+          <img class="float-left" src="{{ "assets/images/hero-image.jpg" | prepend: site.baseurl }}" alt="">
+        </div>
+        <div class="col-xs-12 col-md-6 service-content">
+            <p class="section-subheader">{{ service.sub-title }}</p>
+            <h2 class="section-header">{{ service.title }}</h2>
+            <p>
+              {{ service.blurb }}
+            </p>
+            <p>
+              {{ service.details }}
+            </p>
+        </div>
+        {% else %}
+        <div class="col-xs-12 col-md-6 service-content">
+            <p class="section-subheader">{{ service.sub-title }}</p>
+            <h2 class="section-header">{{ service.title }}</h2>
+            <p>
+              {{ service.blurb }}
+            </p>
+            <p>
+              {{ service.details }}
+            </p>
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <img class="float-right" src="{{ "assets/images/hero-image.jpg" | prepend: site.baseurl }}" alt="">
+        </div>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </div>
+  </div>

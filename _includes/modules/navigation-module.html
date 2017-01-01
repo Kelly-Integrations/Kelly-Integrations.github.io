@@ -14,8 +14,9 @@
       </div>
       <div class="collapse navbar-collapse" id="navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
-          {% for service in site.data.services %}
-            <li><a href="#{{ service.tab | downcase }}">{{ service.tab }}</a></li>
+          {% assign sorted_services = site.categories.services | sort:"order" %}
+          {% for service in sorted_services %}
+            <li><a href="#{{ service.sub-title | downcase }}">{{ service.sub-title }}</a></li>
           {% endfor %}
           <li><a href="#contact-form">Contact</a></li>
         </ul>

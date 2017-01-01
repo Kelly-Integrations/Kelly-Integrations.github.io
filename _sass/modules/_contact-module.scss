@@ -1,7 +1,15 @@
 .contact-module {
-  margin-bottom: 30px;
+  // margin-bottom: 30px;
   .contact-container {
     background-color: white;
+    .contact-module-content {
+      p > span {
+        margin-right: 10px;
+        .glyphicon {
+          color: $lime-color;
+        }
+      }
+    }
     .contact-form {
       background-color: #34495E;
     }

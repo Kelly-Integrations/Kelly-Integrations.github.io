@@ -1,9 +1,17 @@
 // Styling for jumbo module.
 // Contains header, accompanying sentence, and learn more button.
-$jumbo-module-background-color: #34495E;
+$jumbo-module-background-color: rgba(52, 73, 94, .8);
 $jumbo-module-font-color: #EDF4FC;
 
 .jumbo-module {
+  padding: 50px 0;
+  background-image:
+    linear-gradient(
+      rgba(237, 244, 252, 0.2),
+      rgba(237, 244, 252, 0.3)
+    ),
+    url('../images/hero-image.jpg');
+  background-attachment: fixed;
   .jumbotron {
     border: none;
     border-radius: 0px;

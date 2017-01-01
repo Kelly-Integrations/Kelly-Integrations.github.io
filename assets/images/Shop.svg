@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="48px" height="47px" viewBox="0 0 48 47" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Shop</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M10,45.125 L4,45.125 L4,15.125 L44,15.125 L44,45.125 L22,45.125 L22,47 L10,47 L10,45.125 Z M2,13 L2,47 L46,47 L46,13 L2,13 Z M2,13 L2,15.125 L46,15.125 L46,13 L2,13 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="44" height="34" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <path d="M9.99406028,23 C8.8927712,23 8,23.8970262 8,25.0049466 L8,47 L24,47 L24,25.0049466 C24,23.8976452 23.1054862,23 22.0059397,23 L9.99406028,23 Z M12.0085302,25 C10.8992496,25 10,25.8896739 10,26.991155 L10,47 L22,47 L22,26.991155 C22,25.8914705 21.0980496,25 19.9914698,25 L12.0085302,25 Z" id="path-3"></path>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="24" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <path d="M7.89865304,8.89865304 C7.49085273,10.6750694 5.90015343,12 4,12 C1.790861,12 0,10.209139 0,8 C0,6.09984657 1.32493061,4.50914727 3.10134696,4.10134696 L3,4 L7,0 L41,0 L45,4 L44.898653,4.10134696 C46.6750694,4.50914727 48,6.09984657 48,8 C48,10.209139 46.209139,12 44,12 C42.0998466,12 40.5091473,10.6750694 40.101347,8.89865304 L40,9 L39.8739825,9 C39.4299397,10.7252272 37.8638394,12 36,12 C34.1361606,12 32.5700603,10.7252272 32.1260175,9 L31.8739825,9 C31.4299397,10.7252272 29.8638394,12 28,12 C26.1361606,12 24.5700603,10.7252272 24.1260175,9 L23.8739825,9 C23.4299397,10.7252272 21.8638394,12 20,12 C18.1361606,12 16.5700603,10.7252272 16.1260175,9 L15.8739825,9 C15.4299397,10.7252272 13.8638394,12 12,12 C10.1361606,12 8.57006028,10.7252272 8.12601749,9 L8,9 L7.89865304,8.89865304 Z" id="path-5"></path>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="48" height="12" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <rect id="path-7" x="28" y="19" width="12" height="10" rx="2"></rect>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="12" height="10" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Shop" stroke="#51C872" stroke-width="4">
+            <use id="Rectangle-182" mask="url(#mask-2)" fill="#51C872" xlink:href="#path-1"></use>
+            <use id="Rectangle-185" mask="url(#mask-4)" fill="#51C872" xlink:href="#path-3"></use>
+            <use id="Oval-36" mask="url(#mask-6)" fill="#51C872" xlink:href="#path-5"></use>
+            <use id="Rectangle-188" mask="url(#mask-8)" xlink:href="#path-7"></use>
+        </g>
+    </g>
+</svg>

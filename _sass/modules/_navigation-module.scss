@@ -1,10 +1,25 @@
-nav.navigation-module {
-  .navbar-header {
-    a.navbar-brand {
-      // color: red;
-    }
+nav {
+  &.navbar-default {
+    background-color: rgb(255, 255, 255); //IE
+    background-color: rgba(255, 255, 255, 1); //NON-IE
+    border: none;
+    border-radius: 0;
   }
-  .navbar-nav {
+  //
+  // &.scrolled {
+  //     background-color: rgb(255, 255, 255); //IE
+  //     background-color: rgba(255, 255, 255, 1); //NON-IE
+  //     // box-shadow: 1px 1px 10px #afafaf;
+  // }
+  .navigation-module {
+  margin-bottom: 0;
+    .navbar-header {
+      a.navbar-brand {
+        // color: red;
+      }
+    }
+    .navbar-nav {
 
+    }
   }
 }

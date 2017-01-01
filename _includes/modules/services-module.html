@@ -1,19 +1,20 @@
 <div class="row section-header">
   <div class="col-xs-12">
-    <h2>Section header</h2>
-    <p>Accompanying sentence.</p>
+    <h2>How can we help you?</h2>
+    <p>We provide experienced professionals for each field.</p>
   </div>
 </div>
 
 <div class="row">
-  {% for service in site.data.services %}
+  {% assign sorted_services = site.categories.services | sort:"order" %}
+  {% for service in sorted_services %}
   <div class="col-md-4 service-block">
       <div class="service-block-header">
         <span class="glyphicon glyphicon-ok-sign service-icon" aria-hidden="true"></span><span class="service-title">{{ service.title }}</span>
       </div>
       <div class="service-block-content">
         <p>
-          {{ service.blurb }}
+          {{ service.excerpt }}
         </p>
       </div>
   </div>

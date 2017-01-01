@@ -1,34 +1,25 @@
 <div class="container service-module">
     <div class="row">
-      {% for service in site.data.services %}
-      <div id="{{ service.tab | downcase }}" class="col-xs-12 col-md-8 col-md-offset-2 service-container">
+      {% assign sorted_services = site.categories.services | sort:"order" %}
+      {% for service in sorted_services %}
+      <div class="col-xs-12 col-md-8 col-md-offset-2 service-container">
         {% if service.float == 'left' %}
         <div class="col-xs-12 col-md-6">
-          <img class="float-left" src="{{ "assets/images/hero-image.jpg" | prepend: site.baseurl }}" alt="">
+          <img id="{{ service.sub-title | downcase }}" class="float-left shadow" src="{{ "assets/images/hero-image.jpg" | prepend: site.baseurl }}" alt="">
         </div>
         <div class="col-xs-12 col-md-6 service-content">
             <p class="section-subheader">{{ service.sub-title }}</p>
             <h2 class="section-header">{{ service.title }}</h2>
-            <p>
-              {{ service.blurb }}
-            </p>
-            <p>
-              {{ service.details }}
-            </p>
+            {{ service.content }}
         </div>
         {% else %}
         <div class="col-xs-12 col-md-6 service-content">
             <p class="section-subheader">{{ service.sub-title }}</p>
             <h2 class="section-header">{{ service.title }}</h2>
-            <p>
-              {{ service.blurb }}
-            </p>
-            <p>
-              {{ service.details }}
-            </p>
+            {{ service.content }}
         </div>
         <div class="col-xs-12 col-md-6">
-          <img class="float-right" src="{{ "assets/images/hero-image.jpg" | prepend: site.baseurl }}" alt="">
+          <img id="{{ service.sub-title | downcase }}" class="float-right shadow" src="{{ "assets/images/hero-image.jpg" | prepend: site.baseurl }}" alt="">
         </div>
         {% endif %}
       </div>

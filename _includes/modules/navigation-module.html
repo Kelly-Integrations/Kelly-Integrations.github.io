@@ -9,7 +9,7 @@
         <span class="icon-bar"></span>
       </button>
         <a class="navbar-brand" href="{{ site.baseurl }}/">
-          {{site.title}}
+          <img src="assets/images/kelly-brand.png" alt="{{site.title}}" />
         </a>
       </div>
       <div class="collapse navbar-collapse" id="navbar-collapse-1">
@@ -18,7 +18,7 @@
           {% for service in sorted_services %}
             <li><a href="#{{ service.sub-title | downcase }}">{{ service.sub-title }}</a></li>
           {% endfor %}
-          <li><a href="#contact-form">Contact</a></li>
+          <li><a class="btn btn-primary" href="#contact-form">Contact</a></li>
         </ul>
       </div>
     </div><!-- .container -->

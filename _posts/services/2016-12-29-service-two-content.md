@@ -4,6 +4,7 @@ sub-title: Construction
 float: right
 categories: services
 order: 2
+image: hero-image.jpg
 ---
 
 Once the design is complete, KI will manage your construction project from start to finish. Keeping costs down, quality up and the schedule on track.

@@ -66,22 +66,15 @@ body {
     .contact-section .contact-module .contact-form-container textarea {
       resize: none; }
 
-nav.navbar-default {
-  background-color: white;
-  background-color: white;
-  border: none;
-  border-radius: 0; }
-nav .navigation-module {
-  margin-bottom: 0; }
-
 .jumbo-module {
   padding: 50px 0;
   background-image: linear-gradient(rgba(237, 244, 252, 0.2), rgba(237, 244, 252, 0.3)), url("../images/hero-image.jpg");
+  background-size: contain;
   background-attachment: fixed; }
   .jumbo-module .jumbotron {
     border: none;
     border-radius: 0px;
-    background-color: rgba(52, 73, 94, 0.8);
+    background-color: rgba(75, 106, 137, 0.7);
     color: #EDF4FC; }
     .jumbo-module .jumbotron hr {
       width: 25%; }
@@ -118,3 +111,12 @@ nav .navigation-module {
       color: #51C872; }
   .contact-module .contact-container .contact-form {
     background-color: #34495E; }
+
+nav.navigation-module {
+  background-color: white; }
+  nav.navigation-module a.navbar-brand > img {
+    width: 3.5em; }
+  nav.navigation-module ul.navbar-nav a.btn-primary {
+    color: white; }
+    nav.navigation-module ul.navbar-nav a.btn-primary:hover {
+      background-color: #78d491; }

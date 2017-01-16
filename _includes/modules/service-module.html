@@ -5,21 +5,21 @@
       <div class="col-xs-12 col-md-8 col-md-offset-2 service-container">
         {% if service.float == 'left' %}
         <div class="col-xs-12 col-md-6">
-          <img id="{{ service.sub-title | downcase }}" class="float-left shadow" src="{{ "assets/images/hero-image.jpg" | prepend: site.baseurl }}" alt="">
+          <img id="{{ service.sub-title | downcase }}" class="float-left shadow item-will-animate item-animated-right" src="{{ "assets/images/" | append: service.image | prepend: site.baseurl }}" alt="">
         </div>
-        <div class="col-xs-12 col-md-6 service-content">
+        <div class="col-xs-12 col-md-6 service-content item-will-animate item-animated-left">
             <p class="section-subheader">{{ service.sub-title }}</p>
             <h2 class="section-header">{{ service.title }}</h2>
             {{ service.content }}
         </div>
         {% else %}
-        <div class="col-xs-12 col-md-6 service-content">
+        <div class="col-xs-12 col-md-6 service-content item-will-animate item-animated-right">
             <p class="section-subheader">{{ service.sub-title }}</p>
             <h2 class="section-header">{{ service.title }}</h2>
             {{ service.content }}
         </div>
         <div class="col-xs-12 col-md-6">
-          <img id="{{ service.sub-title | downcase }}" class="float-right shadow" src="{{ "assets/images/hero-image.jpg" | prepend: site.baseurl }}" alt="">
+          <img id="{{ service.sub-title | downcase }}" class="float-right shadow item-will-animate item-animated-left" src="{{ "assets/images/" | append: service.image | prepend: site.baseurl }}" alt="">
         </div>
         {% endif %}
       </div>

@@ -4,6 +4,7 @@ sub-title: Integrations
 float: left
 categories: services
 order: 3
+image: conveyorweb.jpg
 ---
 
 KI will perform the necessary testing to ensure your system has been built properly, is performing at it’s maximum potential and conforms to the latest applicable standards.

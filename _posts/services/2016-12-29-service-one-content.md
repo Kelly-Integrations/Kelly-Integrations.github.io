@@ -4,6 +4,7 @@ sub-title: Design
 float: left
 categories: services
 order: 1
+image: hero-image.jpg
 ---
 
 During the Design stage of your project, KI will provide a thorough on-site review of your project that will help to mitigate change orders and translate into time savings during the construction phase.

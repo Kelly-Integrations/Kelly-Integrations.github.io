@@ -2,12 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kelly Integrations</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+    <description>Kelly Integrations (KI) is a Woman-Owned Business that provides Construction Management Services from Concept and Design Review through Construction Completion and Closeout.
+The company was founded to provide specialized project oversight for large complex Baggage Handling Systems, Buildings and Public Works projects. We have experienced staff to manage the design, installation, testing and commissioning of your project.
+KI will provide project management, coordination, quality assurance/quality control, progress updates, pay application review, change order management, and commissioning -- ensuring that systems are built properly and test-ready. We will meet your every construction need as a Government Agency, Stakeholder, Contractor or Design Professional.
 </description>
     <link>http://127.0.0.1:4000/</link>
     <atom:link href="http://127.0.0.1:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 01 May 2017 13:32:29 -0700</pubDate>
-    <lastBuildDate>Mon, 01 May 2017 13:32:29 -0700</lastBuildDate>
+    <pubDate>Tue, 02 May 2017 16:49:51 -0700</pubDate>
+    <lastBuildDate>Tue, 02 May 2017 16:49:51 -0700</lastBuildDate>
     <generator>Jekyll v3.4.0</generator>
     
       <item>

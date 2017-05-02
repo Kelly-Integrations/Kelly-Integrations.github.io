@@ -9,9 +9,11 @@
 title: Kelly Integrations
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Kelly Integrations (KI) is a Woman-Owned Business that provides Construction Management Services from Concept and Design Review through Construction Completion and Closeout.
+
+  The company was founded to provide specialized project oversight for large complex Baggage Handling Systems, Buildings and Public Works projects. We have experienced staff to manage the design, installation, testing and commissioning of your project.
+
+  KI will provide project management, coordination, quality assurance/quality control, progress updates, pay application review, change order management, and commissioning -- ensuring that systems are built properly and test-ready. We will meet your every construction need as a Government Agency, Stakeholder, Contractor or Design Professional.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://127.0.0.1:4000" # the base hostname & protocol for your site
 twitter_username: jekyllrb

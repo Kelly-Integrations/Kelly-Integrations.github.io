@@ -6,11 +6,11 @@
 The company was founded to provide specialized project oversight for large complex Baggage Handling Systems, Buildings and Public Works projects. We have experienced staff to manage the design, installation, testing and commissioning of your project.
 KI will provide project management, coordination, quality assurance/quality control, progress updates, pay application review, change order management, and commissioning -- ensuring that systems are built properly and test-ready. We will meet your every construction need as a Government Agency, Stakeholder, Contractor or Design Professional.
 </description>
-    <link>http://127.0.0.1:4000/</link>
-    <atom:link href="http://127.0.0.1:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 02 May 2017 16:49:51 -0700</pubDate>
-    <lastBuildDate>Tue, 02 May 2017 16:49:51 -0700</lastBuildDate>
-    <generator>Jekyll v3.4.0</generator>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 04 Jul 2017 09:28:05 -0700</pubDate>
+    <lastBuildDate>Tue, 04 Jul 2017 09:28:05 -0700</lastBuildDate>
+    <generator>Jekyll v3.4.3</generator>
     
       <item>
         <title>Construction Management Services</title>
@@ -21,8 +21,8 @@ KI will provide project management, coordination, quality assurance/quality cont
 &lt;p&gt;We will facilitate the review and delivery of equipment for each particular site, take inventory and coordinate logistics if desired.&lt;/p&gt;
 </description>
         <pubDate>Thu, 29 Dec 2016 00:00:00 -0800</pubDate>
-        <link>http://127.0.0.1:4000/services/2016/12/29/service-two-content.html</link>
-        <guid isPermaLink="true">http://127.0.0.1:4000/services/2016/12/29/service-two-content.html</guid>
+        <link>http://localhost:4000/services/2016/12/29/service-two-content.html</link>
+        <guid isPermaLink="true">http://localhost:4000/services/2016/12/29/service-two-content.html</guid>
         
         
         <category>services</category>
@@ -38,8 +38,8 @@ KI will provide project management, coordination, quality assurance/quality cont
 &lt;p&gt;KI believes in putting a bow around each project.  This is accomplished by ensuring a proper handoff with the end user’s maintenance staff resulting in a seamless transition of the new system. We can assist in choosing a new Computer Maintenance Management System or help integrate into an already existing one if desired.&lt;/p&gt;
 </description>
         <pubDate>Thu, 29 Dec 2016 00:00:00 -0800</pubDate>
-        <link>http://127.0.0.1:4000/services/2016/12/29/service-three-content.html</link>
-        <guid isPermaLink="true">http://127.0.0.1:4000/services/2016/12/29/service-three-content.html</guid>
+        <link>http://localhost:4000/services/2016/12/29/service-three-content.html</link>
+        <guid isPermaLink="true">http://localhost:4000/services/2016/12/29/service-three-content.html</guid>
         
         
         <category>services</category>
@@ -55,8 +55,8 @@ KI will provide project management, coordination, quality assurance/quality cont
 &lt;p&gt;KI will provide experienced personnel to inspect the site, including the mechanical, electrical and IT infrastructure to identify any major issues prior to moving forward. It’s critical that all major issues are identified during this stage to allow the project to stay on budget and schedule.&lt;/p&gt;
 </description>
         <pubDate>Thu, 29 Dec 2016 00:00:00 -0800</pubDate>
-        <link>http://127.0.0.1:4000/services/2016/12/29/service-one-content.html</link>
-        <guid isPermaLink="true">http://127.0.0.1:4000/services/2016/12/29/service-one-content.html</guid>
+        <link>http://localhost:4000/services/2016/12/29/service-one-content.html</link>
+        <guid isPermaLink="true">http://localhost:4000/services/2016/12/29/service-one-content.html</guid>
         
         
         <category>services</category>
@@ -72,8 +72,8 @@ KI will provide project management, coordination, quality assurance/quality cont
 &lt;p&gt;KI will provide: project management, coordination, quality assurance/quality control, progress updates, pay application review, change order management, and commissioning – ensuring that systems are built properly and test-ready. We will meet your every construction need as a Government Agency, Stakeholder, Contractor or Design Professional.&lt;/p&gt;
 </description>
         <pubDate>Thu, 29 Dec 2016 00:00:00 -0800</pubDate>
-        <link>http://127.0.0.1:4000/about/2016/12/29/about-section-content.html</link>
-        <guid isPermaLink="true">http://127.0.0.1:4000/about/2016/12/29/about-section-content.html</guid>
+        <link>http://localhost:4000/about/2016/12/29/about-section-content.html</link>
+        <guid isPermaLink="true">http://localhost:4000/about/2016/12/29/about-section-content.html</guid>
         
         
         <category>about</category>

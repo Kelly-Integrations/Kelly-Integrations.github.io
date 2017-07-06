@@ -1,5 +1,5 @@
 ---
-title: On-Site Design Review
+title: Planning & Design Review
 sub-title: Design
 float: left
 categories: services

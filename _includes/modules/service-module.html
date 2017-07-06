@@ -2,7 +2,7 @@
     <div class="row">
       {% assign sorted_services = site.categories.services | sort:"order" %}
       {% for service in sorted_services %}
-      <div class="col-xs-12 col-md-8 col-md-offset-2 service-container">
+      <div class="col-xs-12 service-container">
         {% if service.float == 'left' %}
         <div class="col-xs-12 col-md-6">
           <img id="{{ service.sub-title | downcase }}" class="float-left shadow" src="{{ "assets/images/" | append: service.image | prepend: site.baseurl }}" alt="">

@@ -1,7 +1,7 @@
 body {
   padding-top: 70px;
   line-height: 1;
-  font-size: 14px;
+  font-size: 18px;
   font-family: 'Source Sans Pro', sans-serif;
   background-color: #EDF4FC; }
   body h1, body h2, body h3, body h4, body h5, body h6 {
@@ -68,9 +68,10 @@ body {
 
 .jumbo-module {
   padding: 50px 0;
-  background-image: linear-gradient(rgba(237, 244, 252, 0.2), rgba(237, 244, 252, 0.3)), url("../images/hero-image.jpg");
-  background-size: contain;
-  background-attachment: fixed; }
+  background-image: linear-gradient(rgba(237, 244, 252, 0.2), rgba(237, 244, 252, 0.3)), url("../images/hero-image-wing.jpg");
+  background-size: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
   .jumbo-module .jumbotron {
     border: none;
     border-radius: 0px;

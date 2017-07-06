@@ -10,9 +10,10 @@ $jumbo-module-font-color: #EDF4FC;
       rgba(237, 244, 252, 0.2),
       rgba(237, 244, 252, 0.3)
     ),
-    url('../images/hero-image.jpg');
-  background-size: contain;
+    url('../images/hero-image-wing.jpg');
+  background-size: 100%;
   background-attachment: fixed;
+  background-repeat: no-repeat;
   .jumbotron {
     border: none;
     border-radius: 0px;

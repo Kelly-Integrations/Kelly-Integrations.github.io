@@ -73,6 +73,18 @@ $contact-form-bg: #4B6A89;
       textarea {
         resize: none;
       }
+      ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+        color: lighten( $contact-form-bg, 25%);
+      }
+      ::-moz-placeholder { /* Firefox 19+ */
+        color: lighten( $contact-form-bg, 25%);
+      }
+      :-ms-input-placeholder { /* IE 10+ */
+        color: lighten( $contact-form-bg, 25%);
+      }
+      :-moz-placeholder { /* Firefox 18- */
+        color: lighten( $contact-form-bg, 25%);
+      }
     }
 
   }
